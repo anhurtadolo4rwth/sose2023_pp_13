@@ -1,0 +1,21 @@
+{
+  "name": "sose2023_pp_13",
+  "version": "1.0.0",
+  "description": "semester project to create a visualization and cache data saver for IFC in the web",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dexie": "^3.2.4",
+    "three": "^0.135.0",
+    "web-ifc-viewer": "^1.0.218"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "rollup": "^3.27.1"
+  }
+}
